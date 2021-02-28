@@ -1,0 +1,182 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+
+Project:    Project Name
+Version:    1.0
+Last change:    24/03/17 [fixed Float bug, vf]
+Author Name: Author Name
+Primary use:    Project Type
+-------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Body
+2.
+-------------------------------------------------------------------*/
+
+/*
+==========================================
+    Reset Css
+==========================================
+*/
+ul {
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+/* menu area  */
+.nav-link {
+	color: #000 !important;
+}
+.menu {
+	padding: 20px 0px;
+}
+.fa.fa-bars {
+	font-size: 20px;
+}
+
+
+/* Hero area  */
+.hero-area{
+    background-image: url(../img/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    /* height: 65vh; */
+    background-attachment: fixed;
+}
+.hero-area-content {
+	color: #fff;
+	text-align: center;
+	margin: 200px 0px;
+}
+
+.hero-area-content h1 {
+	font-size: 45px;
+	margin: 160px auto 40px;
+    font-weight: 600;
+}
+.hero-area-content input {
+	border-radius: 3px;
+	padding: 13px 13px;
+	text-transform: capitalize;
+}
+.hero-area-content button {
+	margin-left: 10px;
+}
+.input-group-append, .btn.btn-primary {
+	width: 121px;
+}
+
+/* How to area  */
+.how-to {
+	padding: 50px 0px;
+	background: #434c55;
+	text-align: center;
+}
+.how-to h1 {
+	color: #fff;
+	text-align: center;
+	padding-bottom: 50px;
+	font-size: 35px;
+}
+.how-to h1::after {
+	content: '';
+	position: absolute;
+	height: 2px;
+	width: 30%;
+	background: white;
+	top: 70%;
+	left: 36%;
+	bottom: 0%;
+	right: 0%;
+}
+
+
+
+.how-to-box {
+	border: 2px solid #999292;
+	padding: 24px 10px;
+	color: #fff !important;
+	margin-top: 30px;
+    cursor: pointer;
+}
+  .how-to-box i {
+	font-size: 20px;
+	margin: 15px 0px;
+	color: #999292;
+	border: 1px solid;
+	height: 50px;
+	width: 50px;
+	line-height: 46px;
+	border-radius: 50%;
+}
+  .how-to-box h3 {
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0px 0px 5px 0px;
+  }
+  .how-to-box p {
+    color: #999292;
+  }
+  .how-to-box button {
+	background: none;
+	border: none;
+	color: #fff;
+	margin-top: 10px;
+}
+
+.how-to-box:hover {
+	background: #037ac4;
+    border: 2px solid #fff;
+	padding: 24px 10px;
+	color: #fff !important;
+	margin-top: 30px;
+    transition: .5s;
+    cursor: pointer;
+}
+
+/* leader area  */
+
+
+.leader-content h1 {
+	color: #434c55;
+	padding-bottom: 50px;
+	font-size: 35px;
+	margin-top: 50px;
+}
+.leader-content h1::after {
+	content: '';
+	position: absolute;
+	height: 2px;
+	width: 65%;
+	background:#434c55;
+	top: 33%;
+	left: 3%;
+	bottom: 0%;
+	right: 0%;
+}
+.leader-content p {
+	margin-bottom: 30px;
+}
+.leader-content button {
+	background: #037ac4;
+	padding: 15px 45px;
+	border: 1px solid #037ac4;
+	color: #fff;
+	font-weight: bold;
+	cursor: pointer;
+	border-radius: 3px;
+}
