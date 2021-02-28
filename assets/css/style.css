@@ -239,3 +239,38 @@ p {
 	/* margin-bottom: 60px; */
 	padding-left: 78px;
 }
+
+/* client area  */
+
+.client {
+	padding: 50px 0px;
+}
+
+
+/* Footer  */
+
+
+.footer-area {
+	background: #000;
+	padding: 50px 0px;
+	color: #fff !important;
+  }
+  .footer-area h4 {
+	margin-bottom: 15px;
+	font-weight: bold;
+  }
+  .footer-area ul li a {
+	text-decoration: none !important;
+	color: #fff !important;
+	padding: 4px 0px;
+	display: block;
+	font-size: 15px !important;
+  }
+  .footer-copyright {
+	text-align: center;
+	padding: 20px 0px;
+	border-top: 1px solid;
+	display: block;
+	background: #131212;
+	color: #fff;
+}
