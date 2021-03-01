@@ -6,10 +6,6 @@
 @media only screen and (width: 768px){
 	
 }
-/* Mobile Device 320px */
-@media only screen and (width: 320px){
-	
-}
 /* Mobile M 375px Device */
 @media only screen and (width: 375px){
 	
@@ -17,5 +13,36 @@
 /* Mobile L 425px Device */
 @media only screen and (width: 425px){
 	
+}
+/* Mobile Device 320px */
+@media only screen and (width: 320px){
+	.navbar-toggler-icon i {
+        color: #000;
+        line-height: 36px;
+        display: block;
+        font-size: 22px !important;
+    }
+    .hero-area-content {
+        margin: 100px 0px;
+    }
+    .hero-area-content h1 {
+        font-size: 32px;
+        margin-bottom: 50px;
+        font-weight: 600;
+        margin-top: 0px;
+    }
+    #demo {
+        width: 100%;
+        margin-bottom: 10px;
+        border-radius: 3px;
+    }
+    .btn.btn-primary {
+        padding: 11px 138px;
+        justify-content: center;
+        display: flex;
+    }
+    .input-group-append {
+        margin-left: -3px;
+    }
 }
 
