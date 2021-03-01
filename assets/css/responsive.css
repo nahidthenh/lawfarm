@@ -1,13 +1,13 @@
 /* Laptop-Device 1024px  */
-@media only screen and (width: 1024px){
+@media only screen and (max-width: 1024px){
 	
 }
 /* Tablet-Device 768px  */
-@media only screen and (width: 768px){
+@media only screen and (max-width: 768px){
 	
 }
 /* Mobile M 375px Device */
-@media only screen and (width: 375px){
+@media only screen and (max-width: 375px){
 	.display-none{
         display: none;
     }
@@ -145,7 +145,8 @@
     }
 }
 /* Mobile L 425px Device */
-@media only screen and (width: 425px){
+/* @media only screen and (max-width: 425px) */
+@media only screen and (max-width: 425px){
 	
     .display-none{
         display: none;
@@ -287,7 +288,7 @@
 
 }
 /* Mobile Device 320px */
-@media only screen and (width: 320px){
+@media only screen and (max-width: 320px){
     .display-none{
         display: none;
     }
