@@ -4,9 +4,7 @@
 }
 /* Tablet-Device 768px  */
 @media only screen and (max-width: 768px){
-	.hero-area-content h1 {
-        display: none;
-    }
+	
 }
 /* Mobile M 375px Device */
 @media only screen and (max-width: 375px){
@@ -148,7 +146,7 @@
 }
 /* Mobile L 425px Device */
 /* @media only screen and (max-width: 425px) */
-@media only screen and (max-width: 425px){
+@media only screen and (width: 425px){
 	
     .display-none{
         display: none;
