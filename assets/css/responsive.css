@@ -4,7 +4,139 @@
 }
 /* Tablet-Device 768px  */
 @media only screen and (max-width: 768px){
-	
+    .display-none{
+        display: none;
+    }
+	.navbar-toggler-icon i {
+        color: #000;
+        line-height: 36px;
+        display: block;
+        font-size: 22px !important;
+    }
+    .hero-area-content {
+        margin: 100px 0px;
+    }
+    .hero-area-content h1 {
+        font-size: 40px;
+        margin-bottom: 50px;
+        font-weight: 600;
+        margin-top: 0px;
+    }
+    .leader img {
+        width: 100%;
+        height: 100%;
+    }
+    .how-to-box {
+        height: 345px;
+    }
+    .input-group-append {
+        margin-left: -3px;
+    }
+
+    /* 2 */
+    .how-to {
+        padding: 30px 0px;
+    }
+    .how-to h1 {
+        color: #fff;
+        text-align: center;
+        padding-bottom: 20px;
+        font-size: 30px;
+    }
+    .how-to h1::after {
+        content: '';
+        position: absolute;
+        height: 2px;
+        width: 55%;
+        background: white;
+        top: 100%;
+        left: 25%;
+        bottom: 0%;
+        right: 0%;
+    }
+    .leader-content h1 {
+        margin-top: 20px;
+        text-align: center;
+    }
+    .leader-content h1::after {
+        width: 40%;
+        top: 33%;
+        left: 30%;
+    }
+    .leader-content p {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .leader-content button {
+        background: #037ac4;
+        padding: 15px 45px;
+        border: 1px solid #037ac4;
+        color: #fff;
+        font-weight: bold;
+        cursor: pointer;
+        border-radius: 3px;
+        margin-bottom: 35px;
+        width: 100%;
+    }
+
+    /* 3 */
+    .browse {
+        padding: 30px 0px;
+    }
+    .border_right {
+        border-right: 0;
+    }
+    .browse h1 {
+        padding-bottom: 10px;
+        font-size: 28px;
+    }
+    .browse-content::after {
+        content: '';
+        position: absolute;
+        height: 2px;
+        width: 43%;
+        background: #434c55;
+        top: 115%;
+        left: 29%;
+        bottom: 0%;
+        right: 0%;
+    }
+    .browse-list-title h3 {
+        font-size: 23px;
+        color: #870a0d !important;
+        text-align: center;
+    }
+    .browse-list ul li a {
+        padding: 6px 0px;
+        display: block;
+        color: #212529;
+        text-decoration: none !important;
+        text-align: center;
+    }
+    .browse button {
+        padding: 12px 56px;
+        width: 100%;
+    }
+    .border_right_space {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    /* 4 */
+
+    .client {
+        padding: 30px 0px;
+    }
+    .client img {
+        width: 100%;
+        padding: 30px;
+    }
+    .footer-area {
+        background: #000;
+        padding: 30px 0px;
+        color: #fff !important;
+    }
+
 }
 /* Mobile M 375px Device */
 @media only screen and (max-width: 375px){
@@ -146,7 +278,7 @@
 }
 /* Mobile L 425px Device */
 /* @media only screen and (max-width: 425px) */
-@media only screen and (width: 425px){
+@media only screen and (max-width: 425px){
 	
     .display-none{
         display: none;
@@ -172,7 +304,7 @@
         border-radius: 3px;
     }
     .btn.btn-primary {
-        padding: 11px 190px;
+        padding: 11px 170px;
         justify-content: center;
         display: flex;
         width: 100% !important;
